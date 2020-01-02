@@ -63,12 +63,13 @@ for p in productTable:
     col4 = p.productQty
     s = "INSERT INTO PRODUCT VALUES('" + col1 + "', '" + col2 + "', '" + col3 + "', " + col4 + ")"
 
-    # print(s)
-    cursor.execute(s)
-    conn.commit()
+    print(s)
+    #cursor.execute(s)
+    #conn.commit()
 
-cursor.execute("select*from dbo.PRODUCT")
+#cursor.execute("select*from dbo.PRODUCT")
 
 for row in cursor:
     print(row)
 print("Done!!")
+#check version 4

@@ -68,3 +68,4 @@ for p in danhSachDoiTuong:
     cursor.execute(s)
 
     conn.comit();
+#demo SVn
